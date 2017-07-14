@@ -63,3 +63,17 @@ function backsub(R,b)
     end
     return x
 end;
+
+
+
+A=[1.0 1.0 1.0; 1.0 0.0 1.0 ; 0.0 1.0 1.0 ];
+(q,r)=qrhouse(A);
+(JuliaQ, JuliaR)=qr(A);
+
+A
+q
+r
+JuliaQ
+JuliaR
+
+
